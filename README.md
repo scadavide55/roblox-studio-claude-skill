@@ -65,13 +65,6 @@ In a live test, Claude found the open place, confirmed nothing was file-synced, 
 - The tool list reflects Roblox's documentation at the time of writing. Roblox updates this server, so the skill tells Claude to trust the tools actually present in the session.
 - The undo recording uses plugin-level APIs that may not be permitted from `execute_luau`. The skill handles both outcomes.
 
-## Related projects
-
-Other Roblox skills exist, and may suit you better:
-
-- [tabooharmony/roblox-brain](https://github.com/tabooharmony/roblox-brain), including a `roblox-studio-mcp` skill that also supports a community bridge.
-- [nonlooped/roblox-suite](https://www.skills.sh/nonlooped/roblox-suite/roblox-mcp)
-- [brockmartin/roblox-game-skill](https://github.com/brockmartin/roblox-game-skill)
 
 ## Safety
 
@@ -80,6 +73,9 @@ MCP clients can read and modify the places you open in Studio. Connect only clie
 ## Contributing
 
 Issues and pull requests are welcome, especially from people who run the evals, find a case where Claude misbehaves with the skill, or notice that Roblox changed a tool name.
+
+## Ai use : 
+The help of Claude Opus 5.5 was used for making this skill , and Sonnet 5.5 published it. 
 
 ## License
 
