@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: door-script-does-nothing
+expected_outcome: |
+  Claude finds the door script, checks its container, class, disabled state and the console before rewriting logic, fixes the actual cause with a minimal edit, and verifies the fix.

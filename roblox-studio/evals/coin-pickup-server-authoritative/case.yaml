@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: coin-pickup-server-authoritative
+expected_outcome: |
+  Claude finds the connected Studio, inspects the place before editing, puts the coin-granting logic in a server Script, puts the on-screen counter in a LocalScript or StarterGui UI, verifies the result by reading back or running it, and reports what it changed and what it did not verify.
